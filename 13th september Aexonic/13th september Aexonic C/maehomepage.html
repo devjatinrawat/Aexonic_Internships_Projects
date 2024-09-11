@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mae Homepage</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+
+  <!-- Bootstrap 5 icons  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+  <!-- Linking our own Css -->
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/media_queries.css" />
+</head>
+
+<body>
+  <main class="main_wrapper">
+    <!-- Section 1 : MAE Header Starts Here -->
+    <header class="main_header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg primary-menu">
+          <a class="navbar-brand image_wrapper" href="#">
+            <img src="./images/header/logo.png" alt="brand-logo" class="img-fluid header_logo">
+          </a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Section 1 : MAE Header Ends Here -->
+    <div class="main_content_wrapper">
+      <!-- Section 2 MAE Medications Banner Section Starts -->
+      <section class="banner_carosel_img">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="overlay"></div>
+                    <img src="./images/banner/banner_carosel_img.png" class="d-block w-100 banner_img" alt="banner_img">
+                    <div class="carousel-caption ">
+                      <div class="banner_contents">
+                        <h1 class="banner_heading">Know When Your Loved One Takes Their Pill</h1>
+                        <button class="banner_btn">Download Application</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./images/banner/banner_carosel_img.png" class="d-block w-100 banner_img" alt="banner_img">
+                    <div class="carousel-caption ">
+                      <div class="banner_contents">
+                        <h1 class="banner_heading">Know When Your Loved One Takes Their Pill</h1>
+                        <button class="banner_btn">Download Application</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="overlay"></div>
+                    <img src="./images/banner/banner_carosel_img.png" class="d-block w-100 banner_img" alt="banner_img">
+                    <div class="carousel-caption">
+                      <div class="banner_contents">
+                        <h1 class="banner_heading">Know When Your Loved One Takes Their Pill</h1>
+                        <button class="banner_btn">Download Application</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev banner_wrapper" type="button"
+                  data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <img src="./images/banner/previous_icon.png" alt="previous-icon" class="img-fluid previous_icon">
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next banner_wrapper" type="button"
+                  data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <img src="./images/banner/after_icon.png" alt="after-icon" class="img-fluid after_icon">
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 2 MAE Medications Banner Ends Here-->
+
+      <!-- Section 3 :  Video text container section starts here -->
+      <section class="mae_video_text_container">
+        <div class="container">
+          <div class="row box">
+                <!-- left column-->
+          <div class="col-md-6">
+            <div class="play_icon_pos">
+              <div class="video_left_col video_wrapper">
+                <div class="video_overlay overlay"></div>
+                <img src="./images/video_container_div/left_img.png" alt="mae-video" class="img-fluid">
+               </div>
+            <div class="play_btn_wrapper">
+              <img src="./images/video_container_div/play_btn.png" alt="play-button" class="img-fluid play_btn">
+            </div>
+          </div>
+            </div>
+          <div class="col-md-6">
+            <div class="video_right_content">
+              <div class="logo_img_text_cont">
+                <img src="./images/video_container_div/right_top_icon.png" alt="logo-video-icon" class="img-fluid">
+                <h1 class="video_heading">Gain Peace <br>Of Mind</h1>
+              </div>
+            <p class="video_para">
+              MAE provides real time notifications when your loved one takes their pill.
+            </p>
+            <button class="video_btn">Learn More</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+
+      <!-- Section 3 :  Video text container section Ends here -->
+
+      <!-- Section 4 : Features Section Starts here -->
+
+      <section class="features_section">
+        <div class="features_container">
+          <div class="container">
+            <div class="row box">
+              <div class="col-md-5">
+                <div class="features_col">
+                  <h1 class="features_heading">
+                    Features
+                  </h1>
+                  <p class="features_para lead">
+                    <p class="feature_one">
+                      Real-time notifications to family members <br>for peace of mind.
+                    </p>
+                    <p class="feature_two">
+                      Notes feature per day for documentation.
+                    </p>
+                    <p class="feature_three">
+                      Personalized alerts to your family with <br> customized medication, name, image, <br>and color.
+                    </p>
+                    <p class="feature_four">
+                      See your schedule at a glance with monthly <br> calendar view.
+                    </p>
+                    <p class="feature_five">
+                      Each caregiver can view save d medication <br> intake history.
+                    </p>
+                  </p>
+                  <button class="features_btn">Download</button>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="right_img_col">
+                  <div class="mobile_app_div">
+                    <img src="./images/features_div/features_notification.png" alt="notification-status" class="img-fluid notification_status">
+                    <img src="./images/features_div/features_app_showcase.png" alt="app-showcase" class="img-fluid app_showcase">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 4 : Features Section Ends Here -->
+
+
+<!-- Footer Section Starts Here  -->
+      <footer class="main_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-10">
+              <!-- Downward Footer Section  -->
+              <div class="mae_description">
+                <div class="mae_left_section">
+                  <img src="./images/footer/footer_log_three.png" alt="footer-logo" class="img-fluid footer_logo">
+                  <p class="mae_para">
+                    It is a long-established fact that a reader will be
+                    <br> distracted by the readable content of a page
+                    <br> when looking at its layout.
+                  </p>
+                  <ul class="mae_contact_links">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Help</a>
+                    </li>
+                    <li class="nav-item divider">
+                      <a class="nav-link active" aria-current="page" href="#">Privacy</a>
+                    </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-2">
+              <div class="mae_right_section">
+                <h5 class="mae_ad_text">
+                  Get the App
+                </h5>
+                <div class="img_div">
+                  <a href="#" class="anchor_img">
+                    <img src="./images/footer/googleplaystore_icon.png" alt="googleplaystore_icon" class="img-fluid googleplaystore_icon">
+                    <img src="./images/footer/appstore_icon.png" alt="appstore_icon" class="img-fluid appstore_icon divider">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr >
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright_section">
+                <div class="copyright_left">
+                  <p class="copyright_para">Copyright @MAE 2022 All rights Reserved</p>
+                </div>
+                <ul class="right_social_media_icons">
+                  <li class="social_media_item">
+                    <a href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="social_media_item">
+                    <a href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="social_media_item">
+                    <a href="#">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="social_media_item">
+                    <a href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="social_media_item">
+                    <a href="#">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section Ends Here  -->
+
+  </main>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

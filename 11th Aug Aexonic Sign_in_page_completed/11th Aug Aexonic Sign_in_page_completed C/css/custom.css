@@ -1,0 +1,390 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Header Section Starts From Here */
+
+    *{
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        font-family: 'Outfit', sans-serif;
+    }
+
+
+    .main_wrapper .main_header{
+        padding: 0px 0;
+    }
+    .logo_header{
+        width : 140px;
+    }
+
+
+    .navbar-nav .nav-item .signin{
+        padding-top: 18px !important;
+        font-size: 17px;
+    }
+    
+    .join_btn{
+        font-family: Outfit;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.3199999928474426px;
+        text-align: center;
+        width: 90px;
+        background-color: #485892;
+        color: #FFF;
+        margin-left: 30px;
+        border: 7px;
+        border-style: none;
+        border: none;
+        border-radius: 7px;
+        height: 38.5px;
+        font-size: 17px;
+    }
+
+    /* Header Section Ends From Here */
+
+    /* horizontal Line Starts */
+
+    hr{
+        border-width : 2.2px;
+    }
+
+/* horizontal Line Ends */
+
+/* Sign-in Wrapper starts  */
+.sign_in_box{
+    max-width: 450px;
+    height: 425px;
+    margin: 100px auto;
+    background-color: #FFF;
+    padding: 21px 100px;
+    filter: drop-shadow(2px 6px 10px #A4A4A4);
+    border-radius: 20px;
+}
+
+form{
+    position: relative;
+}
+
+    .form_title{
+        font-family: Outfit;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.3199999928474426px;
+        text-align: center;
+        
+    }
+    .toggle_eye{
+        color : #C1C0C0;
+    }
+
+    .input_boxes{
+        margin: 43px -42px;
+    }
+    
+    .input_boxes img{
+        position: relative;
+        left: 290px;
+        top: -32px;
+    }
+    .email_box , .password_box{
+       
+        width: 325px;
+        border : 1px solid grey;
+    }
+    
+    .email_box{
+        margin-bottom : 25px;       
+    }
+
+    .img-relative{
+        position: relative!important;
+    }
+
+    .input_boxes img{
+        position: absolute;
+        top: 69px;
+        right: 60px;
+    }
+
+    input::placeholder {
+        font-size: 13.5px ;
+    }
+
+    .div-relative{
+        position: relative;
+    }
+    
+    .div-relative p{
+        position: absolute;
+        top: -38px;
+        right: -32px;
+        color : #485892;
+        font-size: 13.5px;
+    }
+
+    .signin_btn{
+        margin-right: 32px;
+    }
+
+    .sign_in_btn{
+        width: 325px;
+        border-style: none;
+        border: none;
+        background-color: #485892;
+        color: #FFF;
+        font-size: 16.5px;
+        border-radius: 7px;
+        height: 50px;
+        
+    }
+
+    .create_account_text{
+        color: #485892;
+        text-align: center;
+        margin-top: 16.5px;
+        font-weight : 500;
+        font-size: 13.5px;
+    }
+    
+    /* Sign-in Wrapper Ends  */
+
+    .sign_outer_wrapper{
+        max-width: 430px;
+    height: 425px;
+    margin: 50px auto;
+        background-color: #FFF;
+    padding: 21px 100px;
+    filter: drop-shadow(2px 6px 10px #A4A4A4);
+    border-radius: 20px;
+    margin-bottom : 100px;
+
+    }
+
+   .sign_inner_wrapper{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    form .form-heading{
+        font-family: Outfit;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+
+    .input-email , .input-pass
+    {
+        box-shadow: none;
+        border: 1px solid grey;
+        width: 300px;
+    }
+
+    .mb-3 img{
+        position: absolute;
+        bottom: 188px;
+                left: 267px;
+    }
+
+    .form-forgot-pass .forgot_text{
+        color: #485892;
+        font-size: 13.5px;
+        margin-left: 194px;
+    }
+
+    .sign-in-btn{
+        width: 307px;
+        border-style: none;
+        border: none;
+        background-color: #485892;
+        color: #FFF;
+        font-size: 16.5px;
+        border-radius: 7px;
+        height: 39px;
+        margin-bottom: 40px;
+    }
+
+    /* Footer Section Starts */
+    .company-heading{
+    font-size: 27.5px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+
+    }
+
+    .company_desc{
+        font-size: 18.5px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.3199999928474426px;
+        text-align: left;
+        
+    }
+
+    .company_products_one , .company_products_two , .company_products_three{
+        font-size: 13.5px;
+    }
+
+    .fb-img , .tw-img , .li_img , 
+    .in_icon{
+        width : 14.5%;
+        margin-top: 55px;
+    }
+
+    .tw-img , .li_img ,.in_icon  {
+        margin-left : 15px;
+    }
+
+    .learn_more_col{
+        margin-top: 60px;
+    }
+
+    .learn_more_title{
+        font-size: 17.5px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.3199999928474426px;
+
+    }
+
+    .about_us_link , .our_team_us_link , 
+    .careers_us_link{
+        font-size: 13.5px ;
+    }
+
+    /* Footer Section Ends */
+
+    /* Media Queries */
+
+    @media (max-width : 425px) { 
+    /* For Mobile devices */
+    
+
+        .logo-container{
+            width: 220px;
+            margin-left : 15px;
+        }
+
+        .heart-icon{
+            width : 45px;
+        }
+
+        .user-icon{
+            width : 45px;
+        }
+
+        .form-wrapper{
+            max-width: 300px;
+            height: 530px;
+            margin: 0 auto;
+            background-color: #FFF;
+            padding: 55px 24px;
+            filter: drop-shadow(2px 6px 10px #A4A4A4);
+        }
+
+        .form-control{
+            width : 65%;
+            font-size: 10px;
+        }
+
+        .fa-eye{
+            position: absolute;
+            top: 56%;
+            right: 14%;
+            color: #A4A4A4;
+            font-weight: 100;
+        
+        }
+        
+        .second-eye{
+            position: absolute;
+            top: 68%;
+            right: 14%;
+        }
+
+        .form-btn{
+            background-color: #485892;
+            color : #FFF;
+            width: 240px;
+            border-radius: 7px;
+            border-style: none;
+            height : 35px;
+            font-size: 13px;
+            margin-top : 35px;
+            margin-left: 10px;
+            
+        }
+
+    }
+
+
+    @media (max-width : 768px) { 
+        /* for Tablets */
+
+        .user-section img{
+            margin-top: 20px;
+            width: 10%;
+        }
+
+
+        .social-profile-section{
+            margin-left: 0px;
+            margin-bottom: 110px;
+
+        }
+
+        .row{
+            margin-top: 20px;
+        }
+
+        img {
+            vertical-align: middle;
+            width: 25%;
+        }
+
+        .fa-eye{
+            position: absolute;
+            top: 56%;
+            right: 14%;
+            color: #A4A4A4;
+            font-weight: 100;
+        
+        }
+        
+        .second-eye{
+            position: absolute;
+            top: 68%;
+            right: 14%;
+        }
+
+        .form-control{
+            margin-left : 25px;
+            border : 2px solid lightgrey;
+            
+        }
+
+        .form-btn{
+            background-color: #485892;
+            color : #FFF;
+            width: 364px;
+            border-radius: 7px;
+            border-style: none;
+            height : 40px;
+            font-size: 15px;
+            margin: 35px 0px 0px 38px;
+            }
+        
+
+    }
+
+

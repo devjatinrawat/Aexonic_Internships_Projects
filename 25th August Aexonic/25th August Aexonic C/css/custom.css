@@ -1,0 +1,475 @@
+
+/* Basic Resets Starts */
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+/* Basic Resets Ends */
+
+
+body{
+  overflow-y: scroll;
+}
+
+
+.container {
+  max-width: 1300px;
+}
+.nissan_banner .navbar{
+  padding: 15px 25px;
+
+}
+
+/* spacing between all list items  */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+  font-family: Nissan Brand W01 Bold;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  
+}
+
+/* aligning the car icon to the base */
+.navbar-nav .nav-item-icon .car_icon{
+  margin: 10px 10px;
+}
+
+.nav-item .location_icon{
+  margin-left: 5px;
+}
+
+
+/* login btn*/
+.navbar-nav .nav-item-btn .login_btn{
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-left: 30px;
+}
+
+/* Login Chevron */
+.login-btn .login_chevron{
+  font-size: 10px;
+}
+
+/* main section starts here */
+
+/* banner section */
+.main_header .nissan_banner{
+  background: url('./../images/nissan_banner.png');
+  min-height: 856.34px;  
+/* Image is centered vertically and horizontally at all times */
+background-position: top top;
+
+/* Image doesn't repeat */
+background-repeat: no-repeat;
+
+/* Makes the image fixed in the viewport so that it doesn't move when 
+   the content height is greater than the image height */
+   background-attachment: scroll;
+   
+   /* This is what makes the background image rescale based on its container's size */
+   background-size: cover;
+  position: relative;
+  filter: brightness(100%);
+   
+  }
+
+  /* banner content starts */
+  
+  .main_header .banner_contents_div{
+    max-width: 1000px;
+    font-family: "Nissan Brand W01 Regular";
+    position: absolute;
+    left: 108px;
+    bottom: 130px;
+    
+  }
+
+  
+  .banner_contents_div .banner_title{
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    
+  }
+
+  .banner_contents_div .banner_info{
+    font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.89px;
+margin-bottom: 40px;
+  
+  }
+  
+  .banner_contents_div .input-group{
+    max-width: 900px;
+  }
+
+  .banner_search_cont ,
+  .banner_scanner_cont {
+    background-color: #FFF;
+  }
+
+  .banner_search_cont , .banner_scanner_cont{
+
+    display: flex;
+    align-items: center;
+    padding: 22.5px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    white-space: nowrap;
+      white-space: nowrap;
+      background-color: none;
+      border: none;
+      border-radius: none;
+  }
+  
+  .input-group input[type=text]{
+    border : 0;
+    letter-spacing: 0.8px;
+
+  }
+
+  .placeholder_pos{
+    padding-left : 0px;
+  }
+  /* Nissan Banner Section Ends  */
+  
+  
+/* SEction 2 : Catgeory Section Starts From Here */
+
+.main_content_wrapper .browse_by_category_section{
+  background-color: #EFEFEF;
+  font-family: "Nissan Brand W01 Regular";
+  padding : 80px 100px ;
+}
+
+.text_cards_wrapper .browse_title{
+  font-family: "Nissan Brand W01 Regular";
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  margin-bottom : 30px;
+
+}
+
+.text_cards_wrapper .cards-container {
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+}
+
+.cards-container .card {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 140px;
+  max-width: 240px;
+  border : 0;
+
+}
+
+.card img {
+
+  border-radius: 5px;
+  width: 34px;
+  height: 34px;
+}
+
+.card h2 {
+  font-size: 13px;
+    font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  
+}
+
+
+
+
+
+
+/* Section : 3 Browse By Model Starts From Here */
+
+.main_content_wrapper .browse_by_model_section{
+  background-color: #FFF;
+  font-family: "Nissan Brand W01 Regular";
+  margin-bottom:100px;
+  padding: 0 100px;
+}
+  
+
+.nisaan_add_container_div .square_box{
+  background-color: #F4F4F4;
+  margin : 0 auto;
+
+}
+
+
+.nissan_heading_para h1{
+
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 1.5px;
+  
+}
+
+.nissan_heading_para .option{
+
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #C3002F;
+  font-weight: 700;
+  font-family: "Nissan Brand W01 Bold";
+  
+
+}
+.nissan_heading_para i{
+font-size: 10px;
+}
+
+
+/* Section : 3 Browse By Model Starts Ends Here */
+
+
+/* Upper Add Ends Here  */
+/* Section 3 : Heading Continues Here */
+
+.browse_section_heading .browse_heading{
+  font-family: "Nissan Brand W01 Regular";
+font-size: 33px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: 1.5px;
+
+
+}
+
+.browse_tab_options .browse_list{
+  list-style: none;
+  padding-inline-start: 2px;
+  font-family: "Nissan Brand W01 Bold";
+  margin-bottom: 30px;
+}
+
+.browse_tab_options .nav-item a{
+  
+  color : #000 !important;
+font-size: 13px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2px;
+margin-right: 15px;
+}
+
+
+/* Cards Container Starts Here */
+
+.card_col img{
+  background-color: #EFEFEF;
+  padding : 50px;
+  border-radius: 8px;
+}
+
+.card-body h6{
+  margin-top : 10px;
+}
+/* Cards Container Ends HEre */
+
+/* Section 4 : Features Section starts here */
+.main_content_wrapper .features_section{
+  font-family: "Nissan Brand W01 Regular";
+  background-color: #000;
+  color: #FFF;
+
+}
+
+.first_col h1,
+.second_col h1,
+.third_col h1{
+  font-family: Nissan Brand W01 Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.first_col p,
+.second_col p,
+.third_col p{
+  font-family: "Nissan Brand W01 Light";
+  font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.8999999761581421px;
+text-align: center;
+
+}
+/* Section 4 : Features Section ends here */
+
+/* Section 5 Know More Section Starts Here section -1  */
+.bg_know_more_section_one{
+background-image: url("./../images/last_bg\ \(4\).png");
+min-height: 834px;
+/* Image doesn't repeat */
+background-repeat: no-repeat;
+
+background-position: center center;
+/* Makes the image fixed in the viewport so that it doesn't move when 
+   the content height is greater than the image height */
+   background-attachment: scroll;
+   
+   /* This is what makes the background image rescale based on its container's size */
+   background-size: cover;
+  position: relative;
+}
+
+.bg_know_more_section_one .info_container{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  color : #FFF;
+  border-left : 2px solid white;
+  padding-left: 30px;
+}
+
+.info_container h2{
+font-family: Nissan Brand W01 Bold;
+font-size: 13px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2px;
+margin-bottom: 20px;
+
+}
+
+.info_container h3{
+font-family: Nissan Brand W01 Regular;
+font-size: 38px;
+font-weight: 400;
+line-height: 42.5px;
+letter-spacing: 1.5px;
+margin-bottom: 300px;
+}
+
+.info_para p{
+font-family: Nissan Brand W01 Light;
+font-size: 13px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0.8px;
+text-align: left;
+margin-bottom : 50px;
+
+}
+
+.info_container .btn{
+  font-family: Nissan Brand W01 Bold;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+text-align: left;
+border-radius: 24px;
+padding: 10px 30px;
+}
+
+
+/* Section 5 Know More Section Ends Here  */
+
+/* Section 6 Know More Section Starts Here section -2 */
+.bg_know_more_section_two{
+  background-image: url("./../images/last_bg\ \(3\).png");
+  min-height: 834px;
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  background-position: center center;
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+     background-attachment: scroll;
+     
+     /* This is what makes the background image rescale based on its container's size */
+     background-size: cover;
+    position: relative;
+  }
+  
+  .bg_know_more_section_two .info_container_two{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    color : #FFF;
+    border-left : 2px solid white;
+    padding-left: 30px;
+  }
+  
+  .border_two{
+  font-size: 500px;
+  
+  }
+  
+  .info_container_two h2{
+  font-family: Nissan Brand W01 Bold;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 20px;
+  
+  }
+  
+  .info_container_two h3{
+  font-family: Nissan Brand W01 Regular;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 42.5px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin-bottom: 300px;
+  }
+  
+  .info_para_two p{
+  font-family: Nissan Brand W01 Light;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.8999999761581421px;
+  text-align: left;
+  margin-bottom : 50px;
+  
+  }
+  
+  .info_container_two .btn{
+    font-family: Nissan Brand W01 Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  border-radius: 24px;
+  padding: 10px 30px;
+  }
+  
+/* Section 6 Know More Section Ends Here  */

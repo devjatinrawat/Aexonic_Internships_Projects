@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+
+/* Basic Resets Starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif !important;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Basic Resets Ends */
+
+.container-fluid {
+  padding: 0;
+  max-width: 1415px;
+}
+
+.container {
+  max-width: 1320px;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+
+.logo_img {
+  width: 130px;
+}
+
+.main_header .navbar {
+  padding: 20px 110px;
+  box-shadow: 0px 8px 26px #00000014 !important;
+  z-index: 999;
+  font-weight: 700;
+}
+
+.navbar-nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+/* spacing between all list items  */
+.navbar-nav .nav-item a {
+  margin-right: 15px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+}
+
+.nav-item .nav-link .join_btn {
+  background: #0095FF 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color: #FFFFFF !important;
+  padding: 5px 30px;
+
+}
+
+/* main banner section starts here */
+
+/* Middle Man banner section Starts  */
+.main_wrapper .middle_man_banner_section {
+  background: transparent url('../images/banner/middle_man_banner.png') 0% 0% no-repeat padding-box;
+  ;
+  min-height: 700px;
+  background-position: left center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: scroll;
+
+  background-size: cover;
+  filter: brightness(100%);
+
+
+}
+
+/* banner content starts */
+
+
+.details_col .banner_contents {
+  padding: 50px 0;
+}
+
+.banner_contents .banner_title {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #051534;
+  text-align: left;
+  padding: 20px 0;
+
+}
+
+.banner_contents .banner_para {
+
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #051534;
+  text-align: left;
+  padding-bottom: 30px;
+
+}
+
+.banner_contents .text_punchline {
+
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #051534;
+  font-weight: 900;
+  opacity: 1;
+  padding-bottom: 20px;
+  text-align: left;
+
+}
+
+.banner_contents .text_feature {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #051534;
+  padding-bottom: 35px;
+}
+
+.icons_holder {
+  display: flex;
+  justify-content: left;
+  column-gap: 20px;
+}
+
+.android_col {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 53px 0;
+}
+
+.googleplay_icon,
+.appstore_icon {
+  width: 135px;
+  border-radius: 4px;
+}
+
+.phone_img {
+  width: 509px;
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+.extrainfo_contents {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.extrainfo_contents .welcome_text {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+
+.extrainfo_contents .learn_more {
+
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #051534B2;
+  opacity: 1;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.extrainfo_contents .coming_soon_text {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  padding-bottom: 10px;
+}
+
+.extrainfo_contents .join_ad_text {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 0px;
+  color: #051534;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+
+
+.extrainfo_contents .last_text {
+
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #051534B2;
+  opacity: 1;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.extrainfo_contents .input_outer_box {
+  padding-bottom: 10px;
+}
+
+.input_box {
+  max-width: 600px;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.input-group input[type=text] {
+  border: 0;
+  letter-spacing: 0.8px;
+  background-color: #E8F5FF;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 17.5px;
+  box-shadow: none;
+  font-weight: 600;
+  opacity: 0.7;
+  color: grey;
+  box-shadow: none;
+}
+
+.input-group .input-group-text {
+  background-color: #0095FF;
+  font-size: 14.5px;
+  color: #FFF !important;
+  padding: 15px 15px;
+}
+
+.extrainfo_contents .last_text {
+  text-align: center;
+  font-size: 23.5px;
+  letter-spacing: 0px;
+  color: #051534B2;
+}
+
+/* Section : 3 Ends Here */
+
+/* Section 4 : Features Section Starts From Here */
+
+.features_section {
+  background: transparent linear-gradient(270deg, #E7FAF5 0%, #E0ECFD 51%, #FEFAFC 100%) 0% 0% no-repeat padding-box;
+  padding: 40px 0px;
+}
+
+.features_section .feature_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.feature_content .feature_title {
+  text-align: left;
+  font-size: 60px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.feature_content .feature_para {
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 600;
+}
+
+
+.image_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.growth_icon {
+  width: 450px;
+}
+
+/* Section 4 : Features Section Starts Ends Here */
+/* Section 5 : Get Paid Section Starts Here */
+
+.getpaid_section {
+  padding: 50px 0;
+}
+
+.getpaid_col .getpaid_content .getpaid_title {
+  text-align: center;
+  font: normal normal 800 46px/44px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  padding: 10px 0;
+}
+
+
+.getpaid_content .getpaid_para {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #051534B2;
+  opacity: 1;
+  font-weight: 600;
+  padding: 30px 0;
+}
+
+.getpaid_col .travel_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10px;
+  column-gap: 10px;
+
+}
+
+
+.travel_row .travel_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel_col .application_icon {
+  width: 200px;
+}
+
+.travel_col .allround_travel {
+  width: 185px;
+}
+
+.travel_col .travel_icon {
+  width: 135px;
+}
+
+
+.travel_col .travel_title {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+
+.travel_col .travel_para {
+
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 700;
+}
+
+
+.getpaid_col .about_us_card {
+  background: transparent linear-gradient(115deg, #E8F5FF 0%, #FFF1E5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: -2px 3px 19px #00000014;
+  border-radius: 108px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 80px;
+}
+
+.about_us_cont .about_us_title {
+  text-align: left;
+  font-size: 44px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 800;
+  padding-bottom: 12px;
+}
+
+.about_us_cont .about_us_para {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.application_icon {
+  width: 460px;
+}
+
+.about_us_card .img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getpaid_second_content {
+  padding: 40px 0;
+}
+
+.getpaid_second_content .getpaid_second_title {
+  text-align: center;
+  font: normal normal 800 46px/44px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+
+  padding: 50px 0 20px 0;
+}
+
+.getpaid_second_content .getpaid_para {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #051534B2;
+  opacity: 1;
+  font-weight: 700;
+  padding-bottom: 20px;
+
+}
+
+.orders_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orders_col {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.orders_col .same_day {
+  width: 217px;
+  padding-bottom: 45px;
+}
+
+.orders_col .next_day {
+  width: 190px;
+}
+
+.orders_col .schedule {
+  width: 183px;
+}
+
+.orders_col .travel_title {
+  text-align: center;
+  font: normal normal 800 22px/44px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+}
+
+
+.orders_col .travel_col {
+  text-align: center;
+  font: normal normal 600 14px/18px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+}
+
+/* How MiddleMan Works Section Starts  */
+
+
+.middleman_working {
+  background: transparent linear-gradient(90deg, #E7FAF5 0%, #E0ECFD 51%, #FEFAFC 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+  padding-bottom: 100px;
+
+}
+
+
+.row .working_heading {
+  text-align: center;
+  font: normal normal 800 46px/44px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  padding: 40px 0;
+}
+
+ .mobile_icon {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: absolute;
+  left: 370px;
+  top: 180px;
+}
+
+
+ .scribble_icon {
+  width: 90px;
+  position: absolute;
+  left: 615px;
+  bottom: 320px;
+}
+
+.working_content {
+  padding: 30px 0;
+}
+
+.working_content .working_heading {
+  text-align: left;
+  font: normal normal 600 36px/44px Muli;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  padding-top: 35px;
+}
+
+.working_content .working_subtitle {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #051534;
+  opacity: 1;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+
+.working_content .working_para {
+  text-align: left;
+  font: normal normal normal 20px/25px Muli;
+  letter-spacing: 0px;
+  color: #051534B2;
+  opacity: 1;
+}
+
+.working_options {
+  display: flex;
+  column-gap: 20px;
+}
+
+
+.prev_icon,
+.next_icon {
+  width: 40px;
+}
+
+.join_inputbox_section{
+  padding : 80px 0;
+}
+
+.join_inputbox_contents .join_ad_text{
+  text-align: center;
+    font: normal normal 800 36px/44px Muli;
+    letter-spacing: 0px;
+    color: #051534;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+
+.footer_section{
+  background-color: #051534;
+  color : #FFF !important;
+  padding-top: 80px;
+}
+
+.footer_section .lists{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.lists img{
+  
+  width: 100px;
+}
+
+hr {
+  opacity: 1;
+}
+
+.downward_section{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+/* .footer_section .left-section{
+
+} */

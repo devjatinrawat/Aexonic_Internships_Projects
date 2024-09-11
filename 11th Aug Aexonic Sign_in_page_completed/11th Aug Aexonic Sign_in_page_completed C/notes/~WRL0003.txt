@@ -1,0 +1,276 @@
+
+
+/* Basic Styles Starts  */
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 17px;
+    font-weight: 900; 
+}
+
+p{
+    font-size: 12px;
+}
+
+ul{
+    font-size: 14px;
+    color: black;
+}
+
+li{
+    margin-left: 12.5px;
+}
+
+
+body{
+    font-family: 'Outfit', sans-serif !important;
+}
+
+
+/* Basic Styles Ends */
+
+/* Header Section Starts  */
+
+.logo-container{
+    width : 300px;
+}
+
+.user-icon{
+    cursor: pointer;
+}
+
+.heart-icon{
+    cursor: pointer;
+    margin-right : 28px;
+}
+
+/* Header Section Ends */
+
+/* horizontal Line Starts */
+
+hr{
+    border-width : 2.2px;
+    margin-bottom: 50px;
+}
+
+/* horizontal Line Ends */
+
+/* Sign-in Wrapper starts  */
+
+.form-wrapper{
+    max-width: 500px;
+    height : 580px;
+    margin : 0 auto;
+    background-color: #FFF;
+    padding: 65px 46px;
+    filter: drop-shadow(2px 6px 10px #A4A4A4);
+}
+
+.form-title{
+    margin-bottom: 45px;
+    margin-top: -33px;
+}
+
+.form-first-name , .form-last-name , .form-email , .form-password , .form-verify-password{
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 386px;
+}
+
+.form-btn{
+    background-color: #485892;
+    color : #FFF;
+    width: 384px;
+    border-radius: 7px;
+    border-style: none;
+    height : 50px;
+    font-size: 15px;
+    margin-top : 35px;
+    
+}
+
+.fa-eye{
+    position: absolute;
+    top: 55%;
+    right: 18%;
+    color: #A4A4A4;
+
+}
+
+.second-eye{
+    position: absolute;
+    top: 67%;
+    right: 18%;
+}
+
+/* Sign-in-box container Ends */
+
+/* Second Horizontal Line */
+
+.second-horizontal-line{
+    margin-top: 70px;
+}
+
+/* Footer Section Starts */
+.footer-section{
+    width: 1200px;
+}
+
+.company-heading{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.social-profile-section{
+    display: flex ;
+    gap: 25px;
+    margin-bottom: 90px;
+    margin-left: 70px;
+}
+
+.fb-icon , .tw-icon , .li-icon , in.icon{
+    cursor: pointer;
+}
+
+img, svg {
+    vertical-align: middle;
+    width: 22%;
+}
+
+.more-info{
+    margin-left : 56px;
+}
+
+/* Footer Section Ends */
+
+/* Media Queries */
+
+@media (max-width : 425px) { 
+/* For Mobile devices */
+    
+
+    .logo-container{
+        width: 220px;
+        margin-left : 15px;
+    }
+
+    .heart-icon{
+        width : 45px;
+    }
+
+    .user-icon{
+        width : 45px;
+    }
+
+    .form-wrapper{
+        max-width: 300px;
+        height: 530px;
+        margin: 0 auto;
+        background-color: #FFF;
+        padding: 55px 24px;
+        filter: drop-shadow(2px 6px 10px #A4A4A4);
+    }
+
+    .form-control{
+        width : 65%;
+        font-size: 10px;
+    }
+
+    .fa-eye{
+        position: absolute;
+        top: 56%;
+        right: 14%;
+        color: #A4A4A4;
+        font-weight: 100;
+    
+    }
+    
+    .second-eye{
+        position: absolute;
+        top: 68%;
+        right: 14%;
+    }
+
+    .form-btn{
+        background-color: #485892;
+        color : #FFF;
+        width: 240px;
+        border-radius: 7px;
+        border-style: none;
+        height : 35px;
+        font-size: 13px;
+        margin-top : 35px;
+        margin-left: 10px;
+        
+    }
+
+ }
+
+
+@media (max-width : 768px) { 
+    /* for Tablets */
+
+    .user-section img{
+        margin-top: 20px;
+        width: 10%;
+    }
+
+
+    .social-profile-section{
+        margin-left: 0px;
+        margin-bottom: 110px;
+
+    }
+
+    .row{
+        margin-top: 20px;
+    }
+
+    img {
+        vertical-align: middle;
+        width: 25%;
+    }
+
+    .fa-eye{
+        position: absolute;
+        top: 56%;
+        right: 14%;
+        color: #A4A4A4;
+        font-weight: 100;
+    
+    }
+    
+    .second-eye{
+        position: absolute;
+        top: 68%;
+        right: 14%;
+    }
+
+    .form-control{
+        margin-left : 25px;
+        border : 2px solid lightgrey;
+        
+    }
+
+    .form-btn{
+        background-color: #485892;
+        color : #FFF;
+        width: 364px;
+        border-radius: 7px;
+        border-style: none;
+        height : 40px;
+        font-size: 15px;
+        margin: 35px 0px 0px 38px;
+        }
+    
+
+ }
+
+

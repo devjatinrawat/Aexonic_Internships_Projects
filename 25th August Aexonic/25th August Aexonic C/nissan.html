@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Nissan Homepage</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <!-- Fonts -->
+  <link href="./css/nissant_font.css" rel="stylesheet" />
+  <link href="https://db.onlinewebfonts.com/c/4135f9aefebfd3fe0ebe5d819ba68391?family=Nissan+Brand+W01+Regular"
+    rel="stylesheet" />
+  <link href="https://db.onlinewebfonts.com/c/19a73a620af60197991e44a32be1faa8?family=Nissan+Brand+W01+Light"
+    rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/19a73a620af60197991e44a32be1faa8?family=Nissan+Brand+W01+Light" rel="stylesheet">
+
+  <!-- Bootstrap 5 icons  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+  <!-- Linking our own Css -->
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/media_queries.css" />
+</head>
+
+<body>
+  <main class="main_wrapper">
+    <!-- Section 1 : Nissan  Main Banner Starts   -->
+      <header class="main_header">
+        <section class="nissan_banner">
+          <!-- Nissan Banner starts -->
+          <nav class="navbar navbar-expand-lg">
+            <!-- Navbar Starts -->
+            <a class="navbar-brand" href="#">
+              <img src="./images/nisaan_logo.png" alt="#" class="desktop-logo d-none d-md-none d-lg-block img-fluid">
+              <img src="./images/small-logo.png" alt="#" class="mobile-logo d-block d-md-block d-lg-none img-fluid ">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white text-uppercase" aria-current="page" href="#">Browse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-uppercase" href="#">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-uppercase" href="#">Book Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-uppercase" href="#">New York, Ny
+                  <img src="./images/header_icons/location_icon.png" alt="location-icon" class="location_icon fluid-img">
+                  </a>
+                </li>
+                <!-- nissan icons in header -->
+                <li class="nav-item-icon text-white">
+                  <a href="">
+                    <img src="./images/header_icons/car_icon.png" alt="car-icon" class="car_icon fluid-img">
+                  </a>
+                </li>
+                <!-- Login icon inside button -->
+                <li class="nav-item-btn mobile-hide">
+                  <button type="button"
+                    class="btn btn-lg text-uppercase rounded-pill text-white bg-dark login_btn">login
+                    <img src="./images/header_icons/login_chevron.png" alt="chevron-icon" class="ms-2 login_chevron img-fluid">
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="mobile-show text-center d-block d-sm-none mt-4">
+            <button type="button" class="btn btn-lg text-uppercase rounded-pill text-white bg-dark login_btn">login<i
+                class="bi bi-chevron-down text-white ms-2"></i></button>
+          </div>
+          <!-- Navbar Ends -->
+          <!-- Banner Content Starts  -->
+          <div class="banner_contents_div text-white">
+            <h1 class="banner_title">Genuine Nissan <br>Parts & Accessories</h1>
+            <p class="banner_info">Shop OEM parts and accessories online. Get parts delivered to your <br> home or
+              to an accredited Nissan dealer.</p>
+            <div class="banner_search_bar input-group">
+              <span class="banner_search_cont input-group-text">
+                <img src="./images/banner_icons/search_icon.png" alt="search-icon" class="search_icon">
+              </span>
+              <input type="text" class="placeholder_pos form-control" 
+              placeholder="Part name, number, VIN or vehicle ">
+              <span class="banner_scanner_cont input-group-text">
+                  <img src="./images/banner_icons/scanner_icon.png" alt="scanner-icon"class="scanner_icon">
+              </span>
+            </div>
+          </div>
+          <!-- Banner Content Ends -->
+        </section>
+      </header>
+    </div>
+    
+    <!-- Section 1 : Nissan Main Banner Ends  -->
+    <!-- Section 2: Browse by category Section Starts From Here  -->
+    <div class="main_content_wrapper">
+
+      <section class="browse_by_category_section">
+        <!-- Category Section Starts  -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col text_cards_wrapper">
+              <h3 class="browse_title">Browse by Part Category</h3>
+              <!-- Category Heading -->
+              <div class="cards-container">
+                <!-- Whole Card Container -->
+                <div class="card">
+                  <!-- single Card -->
+                  <img src="./images/Icon/Categories/Fuel.png" alt="Card 1" class="img-fluid">
+                  <h2>Air & Fuel Delivery</h2>
+                </div>
+                <div class="card">
+                  <img src="./images/Icon/Categories/Transmission.png" alt="Card 2" class="img-fluid">
+                  <h2>Body</h2>
+                </div>
+                <div class="card">
+                  <img src="./images/Icon/Categories/Brakes.png" alt="Card 3" class="img-fluid">
+                  <h2>Brakes</h2>
+                </div>
+                <div class="card">
+                  <img src="./images/Icon/Categories/Cooling.png" alt="Card 4" class="img-fluid">
+                  <h2>Cooling</h2>
+                </div>
+                <div class="card">
+                  <img src="./images/Icon/Categories/Electrical.png" alt="Card 5" class="img-fluid">
+                  <h2>Electric, Lighting Telematics</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Emission.png" alt="Card 5" class="img-fluid">
+                  <h2>Emission Control</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Engine.png" alt="Card 5" class="img-fluid">
+                  <h2>Engine</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Exhaust.png" alt="Card 5" class="img-fluid">
+                  <h2>Exhaust System</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/EV-System.png" alt="Card 5" class="img-fluid">
+                  <h2>HVAC</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Fuel.png" alt="Card 5" class="img-fluid">
+                  <h2>Hybrid & Electric</h2>
+                </div>
+
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Accessories.png" alt="Card 5" class="img-fluid">
+                  <h2>Suspension & Sterring</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Electrical.png" alt="Card 5" class="img-fluid">
+                  <h2>Tire & Wheel</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Tools.png" alt="Card 5" class="img-fluid">
+                  <h2>Tools & Equipment</h2>
+                </div>
+
+                <div class="card">
+                  <img src="./images/Icon/Categories/Transmission.png" alt="Card 5" class="img-fluid">
+                  <h2>Transmission & Drive</h2>
+                </div>
+                <!-- End of cards -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <!-- Section 2: Browse by category Section Ends Here  -->
+      <!-- Section 3 : Browse By Model Section Starts here-->
+      <section class="browse_by_model_section">
+
+        <!-- Upper Add container  -->
+        <div class="container-fluid">
+          <div class="nisaan_add_container_div m-5">
+            <div class="square_box d-flex justify-content-around">
+              <div class="nissan_heading_para_img">
+                <img src="./images/browse_key.png" alt="" class="img-fluid browse_key d-none d-md-block ">
+              </div>
+              <div class="nissan_heading_para mt-5">
+                <h1>Official Nissan Merchandise</h1>
+                <p class=" option text-uppercase mt-4">Shop Merchandise
+                 <img src="./images/ad_banner_icons/arrow_right.png" alt="arrow-right" class="ms-1 arrow_right">
+                </p>
+              </div>
+              <div class="img">
+                <img src="./images/browse_tracksuit.png" alt="" class="img-fluid tracksuit_img desktop_ad d-none d-md-block">
+                <img src="./images/mobile_nissan_ad.png" alt="" class="img-fluid tracksuit_img d-block d-md-none mobile_ad">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Upper Ad Ends Here -->
+
+        <!-- Browse Heading Starts here -->
+
+        <div class="browse_by_model_container">
+          <div class="container">
+            <!-- Browse By title -->
+            <div class="browse_section_heading">
+              <!-- Browse By Heading -->
+              <h1 class="browse_heading">
+                Browse By Model</h1>
+              </h1>
+            </div>
+
+            <!-- Browse Options could be done using tabs in bootstrap -->
+            <ul class="nav nav-underline browse_tab_options text-uppercase">
+              <li class="nav-item browse_list">
+                <a class="nav-link active" aria-current="page" href="#">Passenger Cars</a>
+              </li>
+              <li class="nav-item browse_list">
+                <a class="nav-link d-none d-md-block" href="#">Electric cars</a>
+              </li>
+              <li class="nav-item browse_list">
+                <a class="nav-link d-none d-md-block" href="#">crossover cars</a>
+              </li>
+              <li class="nav-item browse_list">
+                <a class="nav-link d-none d-md-block" href="#">Sports cars</a>
+              </li>
+              <li class="nav-item browse_list">
+                <a class="nav-link d-none d-md-block" href="#">lcvs</a>
+              </li>
+            </ul>
+
+            <!-- Cards Container -->
+            <div class="cards-container">
+              <div class="container text-left">
+                <!-- whole card container -->
+                <div class="row card_row gy-4">
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_brown_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Ariya</h6>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_blue_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Rogue</h6>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_white_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Leaf</h6>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_red_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Juke</h6>
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_reddish_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Pathfinder</h6>
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_greyish_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Frontier</h6>
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_orange_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Qashai</h6>
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-2 card_col">
+                    <!-- First Card -->
+
+                    <img src="./images/browse_black_car.png" class="card-img-top" alt="..." class="img-fluid">
+                    <div class="card-body">
+                      <h6 class="card-title">Sentra</h6>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <!-- Section 3 : Browse By Model Section Ends here-->
+
+      <!-- Section 4 : Features Section Starts here -->
+
+      <section class="features_section">
+        <div class="features_container">
+          <div class="container-fluid">
+            <div class="row features_row p-5">
+              <div class="col first_col col-lg-4 p-4 ">
+                <h1 class="heading">
+                  Smart Buying
+                </h1>
+                <p class="lead">
+                  Your vehicle’s on-board diagnostics let you know when to schedule maintenance or order new parts.
+                </p>
+              </div>
+              <div class="col second_col col-lg-4 p-4">
+                <h1 class="heading">
+                  Shop & Browse
+                </h1>
+                <p class="lead">
+                  We make it easy to explore parts and accessories specifically designed for your vehicle.
+                </p>
+              </div>
+              <div class="col third_col col-lg-4 p-4">
+                <h1 class="heading">
+                  Delivery & Installation
+                </h1>
+                <p class="lead">
+                  Get parts and accessories delivered to your home or to a certified dealer for professional
+                  installation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 4 : Features Section Ends Here -->
+
+
+      <!-- Section 5 : bg know More Section - 1 -->
+      <section class="bg_know_more_section_one">
+        <div class="container">
+          <div class="info_container">
+            <h2 class="info_title text-uppercase">
+              Why Buy Genuine Parts
+            </h2>
+            <h3 class="info_heading">
+              The perfect parts <br>to give you the <br> smoothest ride
+            </h3>
+            <div class="info_para">
+              <p class="lead">
+                When you maintain your vehicle with certified <br>Nissan parts and accessories, you’re <br> ensuring it stays on
+                the road for many more <br> thrilling, and safer, rides to come.
+              </p>
+            </div>
+            <button class="btn btn-light text-uppercase">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 6 : bg know More Section -2 -->
+      <section class="bg_know_more_section_two">
+        <div class="container container_two">
+          <div class="info_container_two">
+            <h2 class="info_title_two text-uppercase">
+              Nissan intelligent mobility
+            </h2>
+            <h3 class="info_heading_two">
+              The Future of <br> Driving is Already <br> Here
+            </h3>
+            <div class="info_para_two">
+              <p class="lead">
+                What if your car could communicate, learn,<br> and even think? Nissan Intelligent Mobility is <br>a suite of integrated technology designed to <br> make your driving experience safer, more <br> comfortable, and give you more control no <br> matter where you are. The future of driving <br> has arrived. 
+
+              </p>
+            </div>
+            <button class="btn btn-light text-uppercase">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+
+
+    </div>
+    <footer class="main_footer">
+
+    </footer>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

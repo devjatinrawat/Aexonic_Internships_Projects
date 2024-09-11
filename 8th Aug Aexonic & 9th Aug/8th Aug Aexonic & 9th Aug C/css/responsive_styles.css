@@ -1,0 +1,47 @@
+
+
+
+
+/* For Example media only screen ( max-wdth : 991px ){
+
+    /* For Tablets */
+    @media only screen and (max-width: 991px) {
+        
+        
+        .container {
+            max-width: 767px;
+        }
+        
+        .logo_header {
+            width: 180.5px;
+        }
+
+        .sign_in_btn {
+            font-size: 15.5px;
+        }
+
+        .join_btn {
+            font-size: 15px;
+            width: 100px;
+    }
+
+    .sign_up_btn {
+        font-size: 17.5px;
+    }
+
+    .fb_img, .tw_img, .li_img, .in_img {
+        width: 44px;
+        height: 44px;
+        margin-left: 10px;
+    }
+}
+
+
+    /* For mobile devices */
+/* @media only screen and (max-width: 767px) {
+
+    .container {
+      max-width: 320px;
+  }
+  
+  } */

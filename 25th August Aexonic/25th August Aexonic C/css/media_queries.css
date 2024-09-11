@@ -1,0 +1,448 @@
+/* For Example media only screen ( max-wdth : 991px ){
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+
+
+  .container {
+    max-width: 768.5px;
+}
+
+    .navbar-nav .nav-item a {
+      color : #000 !important;
+    }
+
+    .nissan_banner .navbar{
+      background-color: #FFF !important;
+      padding : 10px 10px;
+    }
+
+    .navbar-brand .mobile-logo{
+      margin-left : 7px;
+    }
+
+    .navbar .navbar-toggler{
+      border : 0;
+    }
+
+    .banner_contents_div .banner_info ,  .navbar .mobile-hide{
+      display: none;
+    }
+
+    .main_header .nissan_banner{
+
+    background: url(./../images/mobile-responsive.png);
+    min-height: 413px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  
+.nissan_banner .banner_contents_div {
+    max-width: 500px;
+  position: absolute;
+  left: 10px;
+  bottom: 35px;
+  padding : 10px 10px;
+}
+
+.banner_contents_div .banner_title {
+    font-size: 31px;
+    line-height: 40px;
+    
+
+} 
+
+
+.mobile-show .login_btn{
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.banner_contents_div .input-group {
+    max-width: 320px;
+}
+
+.banner_search_cont, .banner_scanner_cont {
+    padding: 10px 13.5px;
+}
+
+.search_icon{
+    width: 16px;
+}
+
+.scanner_icon{
+    width: 30px;
+}
+
+.main_content_wrapper .browse_by_category_section {
+
+    padding: 20px 5px;
+}
+
+.placeholder_pos{
+    font-size : 13px;
+    padding-left: 0px;
+
+}
+
+.text_cards_wrapper .browse_title {
+    font-size: 18px;
+}
+
+  
+.cards-container .card {
+  
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 30px;
+}
+
+.text_cards_wrapper .browse_title {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 12px;
+}
+
+
+.nissan_heading_para h1 {
+  font-size: 13px;
+
+}
+.nissan_heading_para .option {
+  font-size: 16px;
+  
+}
+
+.nissan_heading_para .option {
+  font-size: 11px;
+ 
+}
+
+
+.browse_section_heading .browse_heading {
+  font-size: 18px;
+  margin-bottom : 0px;
+}
+
+.browse_tab_options .nav-item a {
+  font-size: 11px;
+}
+
+.h6, h6 {
+  font-size: 0.8rem;
+}
+
+.card-title {
+
+margin-top : 10px;
+}
+
+.first_col h1, .second_col h1, .third_col h1 {
+  font-size: 15px;
+
+}
+
+.first_col p, .second_col p, .third_col p {
+  font-size: 11px;
+
+}
+
+.bg_know_more_section_one .info_container {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  padding-left: 20px;
+}
+
+.info_container h2 {
+  font-size: 13px;
+
+}
+.info_container h3 {
+  font-size: 25px;
+  margin-bottom: 160px;
+}
+
+.text_cards_wrapper .cards-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bg_know_more_section_two .info_container_two {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  padding-left: 20px;
+}
+
+.info_para_two p {
+  font-size: 11px;
+}
+
+.info_container_two h3 {
+  font-size: 25px;
+  margin-bottom: 160px;
+}
+
+.info_container h2 {
+  font-size: 13px;
+}
+
+.bg_know_more_section_one {
+  background-image: url("../images/mobile_last_bg/last_bg_one_mobile_background.png");
+  min-height: 662px;
+  background-repeat: no-repeat;
+
+}
+
+.bg_know_more_section_two {
+  background-image: url("../images/mobile_last_bg/last_bg_two_mobile_background.png");
+  min-height: 695px;
+  background-repeat: no-repeat;
+
+}
+
+
+}
+
+/* For Tablets */
+ @media only screen and (max-width: 991px) {
+
+
+  .container {
+    max-width: 768px;
+}
+
+    .navbar-nav .nav-item a {
+      color : #000 !important;
+    }
+
+    .nissan_banner .navbar{
+      background-color: #FFF !important;
+      padding : 10px 10px;
+    }
+
+    .navbar-brand .mobile-logo{
+      margin-left : 7px;
+    }
+
+    .navbar .navbar-toggler{
+      border : 0;
+    }
+
+    .banner_contents_div .banner_info ,  .navbar .mobile-hide{
+      display: none;
+    }
+
+    .main_header .nissan_banner{
+
+      background: url('./../images/nissan_banner.png');
+      min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+  
+.nissan_banner .banner_contents_div {
+    max-width: 500px;
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+  padding : 10px 10px;
+}
+
+.banner_contents_div .banner_title {
+    font-size: 31px;
+    line-height: 40px;
+    
+
+} 
+
+
+.mobile-show .login_btn{
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.banner_contents_div .input-group {
+    max-width: 320px;
+}
+
+.banner_search_cont, .banner_scanner_cont {
+    padding: 10px 13.5px;
+}
+
+.search_icon{
+    width: 16px;
+}
+
+.scanner_icon{
+    width: 30px;
+}
+
+.main_content_wrapper .browse_by_category_section {
+  padding: 20px 30px;
+}
+
+
+.placeholder_pos{
+    font-size : 13px;
+    padding-left: 0px;
+
+}
+
+.text_cards_wrapper .browse_title {
+    font-size: 18px;
+}
+
+.card_row{
+  gap: 30px;
+} 
+
+  
+.cards-container .card {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 30px;
+}
+
+.text_cards_wrapper .browse_title {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 12px;
+}
+
+
+.nissan_heading_para h1 {
+  font-size: 13px;
+
+}
+.nissan_heading_para .option {
+  font-size: 16px;
+  
+}
+
+.nissan_heading_para .option {
+  font-size: 11px;
+ 
+}
+
+.browse_section_heading .browse_heading {
+  font-size: 18px;
+  margin-bottom : 0px;
+}
+
+.browse_tab_options .nav-item a {
+  font-size: 11px;
+}
+
+.h6, h6 {
+  font-size: 0.8rem;
+}
+
+.main_content_wrapper .browse_by_model_section {
+  padding: 0 20px;
+
+.card-title {
+
+margin-top : 10px;
+}
+
+.first_col h1, .second_col h1, .third_col h1 {
+  font-size: 15px;
+
+}
+
+.first_col p, .second_col p, .third_col p {
+  font-size: 11px;
+
+}
+
+.bg_know_more_section_one .info_container {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  padding-left: 20px;
+}
+
+.info_container h2 {
+  font-size: 13px;
+
+}
+.info_container h3 {
+  font-size: 25px;
+  margin-bottom: 160px;
+
+
+}
+
+.nissan_ad_container_div .square_box{
+padding : 20px 20px;
+}
+
+
+.text_cards_wrapper .cards-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.bg_know_more_section_two .info_container_two {
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  padding-left: 20px;
+}
+
+.info_para_two p {
+  font-size: 11px;
+}
+
+.info_container_two h3 {
+  font-size: 25px;
+  margin-bottom: 160px;
+}
+
+.info_container h2 {
+  font-size: 13px;
+}
+
+.bg_know_more_section_one {
+  background-image: url("../images/mobile_last_bg/last_bg_one_mobile_background.png");
+  min-height: 662px;
+  background-repeat: no-repeat;
+
+}
+
+.bg_know_more_section_two {
+  background-image: url("../images/mobile_last_bg/last_bg_two_mobile_background.png");
+  min-height: 695px;
+  background-repeat: no-repeat;
+
+}
+
+
+} 
+
+
+ }

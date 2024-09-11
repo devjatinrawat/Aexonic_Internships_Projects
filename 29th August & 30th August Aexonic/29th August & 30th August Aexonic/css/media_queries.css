@@ -1,0 +1,423 @@
+/* For Example media only screen ( max-wdth : 991px ){
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+
+  .container {
+    max-width: 768.5px;
+}
+
+
+  /* Header  */
+  .main_header .navbar {
+    width: 100%;
+    padding: 15px 15px;
+  }
+
+
+  .banner_heading h1 {
+    line-height: 30px;
+    font-size: 32px;
+
+  }
+
+  .banner_contents .banner_title {
+    font-size: 33.5px;
+    padding: 10px 0;
+  }
+
+  .logo_img {
+    width: 100px;
+  }
+
+  .banner_contents .banner_para {
+
+    font-size: 15px;
+    padding : 5px 0;
+  }
+
+  .googleplay_icon , .appstore_icon{
+    width: 100px;
+    }
+  
+
+
+  .banner_contents .text_punchline {
+    font-size: 20px;
+    padding : 5px 0;
+  }
+
+  .banner_contents .text_feature {
+    font-size: 15px;
+  }
+
+  .phone_img {
+    width: 350px;
+        padding: 0 0 20px 0;
+
+  }
+
+  .android_col {
+
+    padding: 30px 0;
+
+  }
+  .extrainfo_contents .welcome_text{
+    font-size: 36px;
+    padding-bottom: 5px;
+
+  }
+
+  .extrainfo_contents .coming_soon_text{
+    font-size: 32px;
+    padding-bottom: 5px;
+
+  }
+
+  .extrainfo_contents .learn_more{
+    font-size: 15px;
+    padding-bottom: 5px;
+
+  }
+
+  .extrainfo_contents .join_ad_text{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .input_box{
+    padding-bottom: 15px;
+  }
+
+  .extrainfo_contents .last_text {
+    font-size: 15px;
+  }
+
+.input-group input[type=text] {
+
+  font-size: 12px;
+}
+
+.input-group .input-group-text{
+  font-size: 12px;
+  color: #FFF !important;
+}
+
+.feature_content .feature_title {
+  font-size: 33.5px;
+}
+
+.feature_content .feature_para {
+  font-size: 15px;
+
+}
+
+.growth_icon {
+  width: 300px;
+}
+
+
+
+.getpaid_col .getpaid_content .getpaid_title {
+  font-size: 33.5px;
+  padding: 10px 0;
+}
+
+.getpaid_content .getpaid_para {
+  font-size: 15px;
+
+}
+
+.getpaid_col .travel_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  padding : 0;
+
+}
+
+.travel_col{
+  padding-bottom: 10px;
+}
+
+.travel_col img{
+  width: 140px;
+}
+
+.travel_col .travel_title {
+  font-size: 19px;
+  padding: 20px 0 0 0;
+}
+
+.travel_col .travel_para {
+  font-size: 15.5px;
+
+}
+
+.application_icon {
+  width: 250px;
+}
+
+.getpaid_col .about_us_card {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 25px;
+  row-gap: 50px;
+}
+
+.about_us_cont .about_us_title {
+  font-size: 30px;
+}
+
+.about_us_cont .about_us_para {
+  font-size: 15px;
+
+}
+
+.getpaid_second_content .getpaid_second_title {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.getpaid_second_content .getpaid_para {
+    font-size: 15px;
+}
+
+.getpaid_second_content {
+  padding: 0 0;
+}
+
+.orders_row {
+  flex-direction: column;
+}
+
+/* How MiddleMan Works Section Starts  */
+
+.row .working_heading {
+
+  font-size: 20px;
+}
+
+.working_content {
+    padding: 0px 0;
+}
+
+.working_content .working_subtitle {
+
+  font-size: 25px;
+}
+
+
+.mobile_icon {
+  width: 230px;
+  position: static;
+}
+
+.scribble_icon {
+  width: 100px;
+  position: static;
+}
+.working_content .working_para {
+    font-size: 13px;
+}
+
+.working_options {
+  justify-content: center;
+}
+
+.join_inputbox_contents .join_ad_text{
+font-size: 30px;
+padding-bottom: 20px;
+}
+
+}
+
+/* For Tablets */
+@media only screen and (max-width: 991px) {
+
+
+  .container {
+    max-width: 991px;
+}
+
+.banner_contents .banner_title {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.banner_contents .banner_para {
+  font-size: 15px;
+}
+
+.banner_contents .text_punchline {
+  font-size: 20px;
+}
+
+.banner_contents .text_feature {
+  text-align: left;
+  font-size: 15px;
+
+} 
+
+.googleplay_icon, .appstore_icon {
+  width: 100px;
+}
+
+.phone_img {
+  width: 400px;
+}
+
+.extrainfo_contents .welcome_text {
+  font-size: 32px;
+
+}
+
+.extrainfo_contents .coming_soon_text {
+  font-size: 32px;
+}
+
+.extrainfo_contents .learn_more {
+  font-size: 18px;
+}
+
+
+.extrainfo_contents .join_ad_text {
+    font-size: 25px;
+}
+
+.input_box {
+  max-width: 480px;
+}
+
+
+.input-group input[type=text] {
+    font-size: 13.5px;
+}
+
+.input-group .input-group-text {
+  font-size: 10.5px;
+}
+
+.extrainfo_contents .last_text {
+  font-size: 16.5px;
+}
+
+.feature_content .feature_title {
+  font-size: 40px;
+}
+
+.feature_content .feature_para {
+  font-size: 20px;
+}
+
+.growth_icon {
+  width: 340px;
+}
+
+.getpaid_col .getpaid_content .getpaid_title {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.getpaid_content .getpaid_para {
+    font-size: 16px;
+    font-weight: 600;
+     padding: 0;
+}
+
+.travel_col .travel_title {
+  font-size: 15px;
+}
+
+.travel_col .travel_para {
+  font-size: 15px;
+}
+
+.about_us_cont .about_us_title {
+  font-size: 30px;
+}
+
+.about_us_cont .about_us_para {
+    font-size: 15px;
+}
+
+.application_icon {
+  width: 260px;
+}
+
+.getpaid_second_content .getpaid_second_title {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 30px 0 10px 0;
+}
+
+.getpaid_second_content .getpaid_para {
+  font-size: 15px;
+}
+
+.orders_col .same_day {
+  width: 140px;
+  padding-bottom: 30px;
+}
+
+.orders_col .next_day {
+  width: 136px;
+  padding-bottom: 5px;
+}
+
+.orders_col .schedule {
+  width: 117px;
+  padding-bottom: 5px;
+}
+
+.orders_col .travel_title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.orders_col .travel_para{
+  font-size: 13px;
+}
+
+.getpaid_section {
+  padding: 30px 0;
+}
+
+.row .working_heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.mobile_icon {
+  position: static;
+}
+
+.scribble_icon {
+  width: 90px;
+  position: static;
+}
+
+.footer_section ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.right_section p{
+  font-size: 15px;
+}
+.downward_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+
+}

@@ -1,0 +1,436 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  /* Basic Resets Starts */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  button {
+    text-decoration: none !important;
+    outline: none !important;
+  }
+
+  /* Basic Resets Ends */
+
+  .container-fluid {
+    padding: 0;
+    max-width: 1182px;
+  }
+
+  .container {
+    max-width: 1266px;
+  }
+
+  body {
+    overflow-y: scroll;
+
+  }
+
+  .main_header .primary-menu {
+    padding: 5px 0;
+  }
+
+
+  .header_logo {
+    width: 74px;
+    height: 69px;
+    object-fit: cover;
+  }
+  /* Its Valid */
+
+
+  /* spacing between lists in header */
+  .navbar .navbar-nav {
+    column-gap: 30px;
+  }
+
+  /* styling the anchor links in header */
+  .navbar .nav-item .nav-link {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  /* Section 2 :  Mae Medications Banner section starts here */
+
+  .box{
+    align-items: center;
+  }
+  .banner_img{
+    min-height: 500px;
+  }
+
+  .main_content_wrapper .banner_carosel_img {
+    padding-bottom: 50px;
+  }
+
+  .banner_contents {
+    position: absolute;
+    top: 0%;
+    left: -1%;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    bottom: 0%;
+    right: 0%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .banner_carosel_img .carousel-inner .carousel-caption .banner_contents .banner_heading {
+    text-align: center;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 15%;
+  }
+
+  .banner_carosel_img .carousel-inner .carousel-caption .banner_btn {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border-style: none;
+    padding: 17px 45px;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #1D184C;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  /* Eliminating onfocus */
+  .carousel-control-next,
+  .carousel-control-prev {
+    opacity: 1;
+  }
+
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+
+    opacity: 1;
+  }
+
+
+  .carousel-control-prev {
+    position: absolute;
+    left: 5px;
+    top: 0;
+}
+
+  .carousel-control-next {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+  }
+
+
+  .banner_wrapper img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+
+  /* Section 3 :  Mae Medications Banner section Ends here */
+
+
+
+  /* Section 4 :  Video Container section starts here */
+
+  .main_content_wrapper .mae_video_text_container {
+    background-color: #1D184C;
+    padding: 25px 0;
+    position: relative;
+  }
+
+  .mae_video_text_container .video_left_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid white;
+    border-radius: 5px;
+  }
+
+  .mae_video_text_container .play_icon_pos {
+    position: relative;
+  }
+
+  .video_overlay{
+    opacity: 0.3;
+  }
+
+  .video_wrapper{
+    height: auto;
+    object-fit: cover;
+  }
+
+  .play_btn_wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .play_btn_wrapper .play_btn {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .video_right_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+        color: #FFF;
+        max-width: 486px;
+        margin: 0 auto;
+    }
+
+    .video_right_content img{
+      width: 139px;
+      height: 105px;
+      object-fit: cover;
+    }
+
+    .video_right_content h1{
+      text-align: left;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;
+    }
+
+
+    .video_right_content .logo_img_text_cont{
+      display: flex;
+      column-gap: 50px;
+      margin-bottom: 44px;
+    }
+
+     .video_right_content .video_para{
+      text-align: center;
+      letter-spacing: 0.96px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 60px;
+  }
+
+  .video_btn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 17px 96px;
+  }
+
+  
+
+
+  /* Section 4 :  Video Container section Ends here */
+
+
+  .features_section{
+    padding: 50px 0;
+  }
+
+  .features_col .features_heading{
+    text-align: left;
+    letter-spacing: 2px;
+    color: #534782;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .features_col .features_para{
+    text-align: left;
+    letter-spacing: 0.72px;
+    color: #000000;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .feature_one , .feature_two , .feature_three , .feature_four
+  , .feature_five{
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 0.72px;
+    color: #000000;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .features_col .feature_five{
+    padding-bottom: 45px;
+
+  }
+
+  .features_col .features_btn{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #1D184C;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 17px 103px;
+    margin: 0 37px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D184C;
+}
+  .right_img_col .mobile_app_div{
+    display: flex;
+    column-gap: 60px;
+  }
+
+
+  .right_img_col .mobile_app_div{
+    height: 550px;
+    justify-content: center;
+  }
+  /* Footer Begins Here */
+
+  .main_footer{
+    color: #FFF;
+    background-color: #534782;
+    padding: 37px 0;
+
+  }
+
+   .mae_left_section img{
+    padding-bottom: 21px;
+  }
+
+
+  .mae_left_section .mae_para{
+    text-align: left;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+
+.mae_contact_links{
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+  justify-items: start;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 1.05px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+
+.copyright_section{
+  display: flex;
+    justify-content: space-between;
+}
+
+dl, ol, ul {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid #FFF;
+  color: inherit;
+  opacity: 1;
+  margin-bottom: 21px;
+}
+
+.img_div
+{
+  display: flex;
+}
+
+.mae_right_section{
+  display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    row-gap: 10px;
+}
+
+.anchor_img{    display: flex;
+  flex-direction: column;
+}
+
+.googleplaystore_icon , .appstore_icon{
+  width: 165px;
+  height: 50px;
+}
+
+.mae_right_section .googleplaystore_icon{
+  
+ margin-bottom: 20px;
+}
+
+.right_social_media_icons{
+  display: flex;
+    justify-items: center;
+    column-gap: 15px;
+    list-style: none;
+}
+
+.social_media_item a i{
+    font-size: 18px;
+  }
+a {
+  color: inherit;
+}
+
+  /* Footer EndsHere */
